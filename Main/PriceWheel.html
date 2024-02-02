@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" type="text/css" href="External.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap" rel="stylesheet">
+    <title>PriceWheel</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        
+    </style>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script> 
+
+</head>
+
+
+<body>
+    <nav class=" fixed w-[100%] py-5">
+        <div class="flex flex-row justify-between p-5">
+            <div class="font-[Poppins] text-white">
+                <h2><b>PriceWheel</b></h2>
+            </div>
+            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                <ul
+    
+                  class=" font-medium flex flex-col p-5 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0"
+                >
+                  <li>
+                    <a
+                      href="#Home"
+                      class="rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent
+                      aria-current="page"
+                      >Home</a>
+                  </li>
+                  <li>
+                    <a 
+                    href="#About"
+                    class="rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                    >About</a>
+                  </li>
+                  <li>
+                    <a href="#Cars"
+                    class="rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Cars</a>
+                  </li>
+                </ul>
+            </div>
+            </div>
+            </div>
+          </div>
+    </nav>
+    <div id="Home" class="h-[100vh] flex justify-center items-center bg-black scroll-m-8 background">
+        <div class=" flex flex-col gap-5 ">
+          <h1 class="flex items-center text-white text-center text-8xl font-bold">Price<p class="text-white text-center font-[10]">Wheel</p> </h1>
+          <p class=" text-white text-center text-2xl"> Predicting Car Prices with Precision.</p>
+        </div>
+      </div>
+</body>
+</html>
